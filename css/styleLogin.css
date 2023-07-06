@@ -16,20 +16,8 @@ ul, ol {
 }
 main{
     background-color: #e9e9e9;
-}
 
-@keyframes gradient-bg {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-header{
+}header{
     display: flex;
     height: 115px;
     width: 1240px;
@@ -57,9 +45,7 @@ header #cabecalho input{
 
 }
 
-header a{
-    text-align: center;
-    text-decoration: none;
+header button{
     width: 150px;
     padding: 16px;
     border: 1px solid #2A7AE4;
@@ -67,101 +53,38 @@ header a{
     margin-right: 100px;
 }
 
-#hero{
+#login{
     width: 100%;
-    height: 350px;
-    background-image: url(../assets/promocionalBack.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-
-}
-
-#hero #promocao__texto{
-    width: 1100px;
-    height: 350px;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-    align-items: start;
-    justify-content: end;
-    color: #181818;
-
+    align-items: center;
+    justify-content: center;
 }
 
+#login p{
+    font-size: 18px;
+}
 
-#hero #promocao__texto h1, h2, p, button{
+#login input{
+    width: 400px;
+    height: 60px;
     margin-bottom: 22px;
-}
-
-#hero #promocao__texto h1{
-    font-size: 54px;
-    font-weight: 700;
-    
-}
-
-#hero #promocao__texto p{
-    font-size: 20px;
-    height: 30px;
-}
-
-#hero #promocao__texto a{
-    width: 150px;
-    padding: 16px;
-    text-decoration: none;
-    margin-bottom: 12px;
+    margin-top: 10px;
     border: none;
-    color: wheat;
-    background-color: #2A7AE4;
-    margin-right: 100px;
 }
 
-#produtos{    
-    width: 100%;
-    height: 300px;
+#login a{
+    text-decoration: none;
     
-}
-#produtos #produtos__texto{
-    display: flex;  
-    width: 1100px;
-    justify-content: space-between;
-    margin-top: 60px;
-    margin-left: 100px;
-    
-}
-
-#produtos ul{
-    margin-left: 100px;
-    width: 1120px;
     display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    font-size: 13px;
-    text-align: start;
-    color: #181818;
-    justify-content: space-between;
-}
-
-#produtos ul li{
-    
-    text-decoration: none;
-    width: 170px;
-    height: 250px;
-    
-}
-
-#produtos ul li p{
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    
-}
-
-#produtos ul li a{
-    text-decoration: none;
-    color: #2A7AE4;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 60px;
+    background-color: #2A7AE4;
+    color: #fffefe;
+    border: none;
 }
 
 #formulario{
@@ -226,7 +149,7 @@ header a{
     border: none;
     
 
-}
+}   
 
 #formulario #contato__form p{
     
@@ -245,3 +168,4 @@ footer {
 footer > div { 
     text-align: center;
 }
+ 
