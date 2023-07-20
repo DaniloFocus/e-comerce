@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styleLogin.css">
+    <link rel="stylesheet" href="./css/styleAdm.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <!-- <link rel="Javascript" href="./validate.js" defer> -->
 
-    <title>Login</title>
+    <title>Menu administrador</title>
 </head>
 
 <body>
@@ -22,16 +22,19 @@
                 <input type="text" name="search" id="input__busca" placeholder="O que deseja encontrar?">
                 <img src="assets/IconeBusca.svg" alt="Icone de busca">
             </div>
-                
+            <a href="./indexLogin.html">Menu administrador</a>
         </header>
         <main>
-            <section id="login">
-                <p>Iniciar sessão</p>
+            <section id="cadastro__musica">
+                <h2>Adicionar nova música</h2>
+                <input type="url" name="url" id="input__url" placeholder=" URL da imagem">
                 <input type="email" name="email" id="input__email" placeholder=" Digite seu email">
-                <input type="password" name="password" id="input__password" placeholder=" Escreva sua senha">
-                <a href="#">Entrar</a>
+                <input type="search" name="search" id="input__produto" placeholder=" Nome do produto">
+                <input type="search" name="search" id="input__produto" placeholder=" Preço do produto">
+                <input type="search" name="search" id="input__produto" placeholder=" Descrição do produto">
+
+                <a href="#">Adicionar produto</a>
             </section>
-        
             <section id="formulario">
                 <div id="formulario__esquerda">
                     <div id="logo">
@@ -55,10 +58,10 @@
                     </div>
             </section>
         </main>
-
         <footer>
             <p>© 2023 Danilo Lopes</p>
         </footer>
-
     </div>
 </body>
+
+</html>

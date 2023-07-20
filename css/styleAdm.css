@@ -2,34 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 ul, ol {
     list-style-type: none;
 }
-
-
 .all {
     font-size: 1.2rem;
-    max-width: 1240px;
-    font-family: 'Raleway';
     margin: auto;
-    
-}
-main{
-   
     max-width: 1240px;
-    width: 90%;
-    margin: 32px auto;
+    font-family: 'Raleway';    
 }
-
 header{
     padding: 12px;
     display: flex;
     height: 115px;
     max-width: 1240px;
     width: 90%;
-    
     margin: auto;
     align-items: center;
 }
@@ -62,43 +50,48 @@ header a{
     color: #2A7AE4;
     margin-right: 100px;
 }
-
-#login{
-    margin: auto;
-    width: 80%;
-    height: 300px;
+main{
+    max-width: 1240px;
+    width: 90%;
+    margin: 32px auto;
+}
+#cadastro__musica{
+    width: 100%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 15px;
 }
 
-#login p{
-    width: auto;
-    font-size: 18px;
+#cadastro__musica p{
+    font-size: 18px; 
 }
 
-#login input{
-    width: 40%;
+#cadastro__musica h2{
+    width: 60%;
+}
+
+#cadastro__musica input{
+    width: 60%;
     height: 60px;
     margin-bottom: 22px;
     margin-top: 10px;
     border: none;
+    box-shadow: 1px 1px 1px 1px #707070;
 }
-
-#login a{
+#cadastro__musica a{
     text-decoration: none;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 400px;
     height: 60px;
     background-color: #2A7AE4;
     color: #fffefe;
     border: none;
 }
-
 #formulario{
     margin-top: 42px;
     width: 100%;
@@ -191,13 +184,18 @@ footer  p {
 }
 
 @media screen and (max-width: 768px) {
-   
-    #formulario{
-        height: 70%;
+ 
+    #cadastro__musica input{
+        width: 90%;
     }
+
+    #cadastro__musica h2{
+        width: 90%;
+    }
+
     #formulario #contato__form{
         width: 50%;
-        height: 90%;
+        
     }
     #formulario #formulario__esquerda{
         width: 50%;
@@ -214,13 +212,13 @@ footer  p {
 }
 
 @media screen and (max-width: 425px){
+    header #cabecalho{
+        margin: auto 15px;
+    }
+
     header #cabecalho input{
         display: none;
     }
-    #login input{
-        width: 100%;
-    }
-
     #formulario{
         height: 700px;
         flex-direction: column;
@@ -230,7 +228,7 @@ footer  p {
     }
     #formulario #contato__form{
         width: 100%;
-        height: 300px;
+        
     }
     #formulario #formulario__esquerda #logo{
         align-items: center;
@@ -240,5 +238,5 @@ footer  p {
     #formulario #formulario__esquerda #links__form{
         align-items: center;
     }
-    
+
 }
